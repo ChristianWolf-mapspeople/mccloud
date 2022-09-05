@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D47E61728C5EB0400D10E58 /* mccloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D47E61628C5EB0400D10E58 /* mccloudApp.swift */; };
 		2D47E61928C5EB0400D10E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D47E61828C5EB0400D10E58 /* ContentView.swift */; };
 		2D47E61B28C5EB0500D10E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D47E61A28C5EB0500D10E58 /* Assets.xcassets */; };
 		2D47E61E28C5EB0500D10E58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D47E61D28C5EB0500D10E58 /* Preview Assets.xcassets */; };
+		2D7A955528C5FCD800DF5130 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A953B28C5FCD800DF5130 /* DetailView.swift */; };
+		2D7A955628C5FCD800DF5130 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A953C28C5FCD800DF5130 /* SearchView.swift */; };
+		2D7A955728C5FCD800DF5130 /* DirectionsGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A953D28C5FCD800DF5130 /* DirectionsGuideView.swift */; };
+		2D7A955828C5FCD800DF5130 /* MapsIndoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A953E28C5FCD800DF5130 /* MapsIndoorsView.swift */; };
+		2D7A955928C5FCD800DF5130 /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A953F28C5FCD800DF5130 /* LocationResult.swift */; };
+		2D7A955A28C5FCD800DF5130 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954128C5FCD800DF5130 /* View.swift */; };
+		2D7A955B28C5FCD800DF5130 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954328C5FCD800DF5130 /* Icon.swift */; };
+		2D7A955C28C5FCD800DF5130 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954428C5FCD800DF5130 /* PagingView.swift */; };
+		2D7A955D28C5FCD800DF5130 /* DirectionGuideLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954528C5FCD800DF5130 /* DirectionGuideLeg.swift */; };
+		2D7A955E28C5FCD800DF5130 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954628C5FCD800DF5130 /* CloseButton.swift */; };
+		2D7A955F28C5FCD800DF5130 /* LocationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954728C5FCD800DF5130 /* LocationInformation.swift */; };
+		2D7A956028C5FCD800DF5130 /* SearchBarWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954828C5FCD800DF5130 /* SearchBarWithText.swift */; };
+		2D7A956128C5FCD800DF5130 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954928C5FCD800DF5130 /* BlueButton.swift */; };
+		2D7A956228C5FCD800DF5130 /* EmptyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954A28C5FCD800DF5130 /* EmptyList.swift */; };
+		2D7A956328C5FCD800DF5130 /* SearchBarWithSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954B28C5FCD800DF5130 /* SearchBarWithSymbol.swift */; };
+		2D7A956428C5FCD800DF5130 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954C28C5FCD800DF5130 /* DirectionsView.swift */; };
+		2D7A956528C5FCD800DF5130 /* MapsIndoorsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954D28C5FCD800DF5130 /* MapsIndoorsMap.swift */; };
+		2D7A956628C5FCD800DF5130 /* locationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A954E28C5FCD800DF5130 /* locationModel.swift */; };
+		2D7A956728C5FCD800DF5130 /* KeyboardServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955028C5FCD800DF5130 /* KeyboardServices.swift */; };
+		2D7A956828C5FCD800DF5130 /* MapsIndoorsDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955128C5FCD800DF5130 /* MapsIndoorsDirections.swift */; };
+		2D7A956928C5FCD800DF5130 /* GPSPositionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955228C5FCD800DF5130 /* GPSPositionProvider.swift */; };
+		2D7A956A28C5FCD800DF5130 /* CategoryLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955328C5FCD800DF5130 /* CategoryLister.swift */; };
+		2D7A956B28C5FCD800DF5130 /* MapsIndoorsSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955428C5FCD800DF5130 /* MapsIndoorsSearch.swift */; };
+		2D7A956E28C5FF1500DF5130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A956C28C5FF1500DF5130 /* ViewController.swift */; };
+		2D7A956F28C5FF1500DF5130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A956D28C5FF1500DF5130 /* AppDelegate.swift */; };
+		2D7A957428C6142C00DF5130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A957128C6142C00DF5130 /* LaunchScreen.storyboard */; };
+		2D7A957528C6142C00DF5130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A957228C6142C00DF5130 /* Main.storyboard */; };
+		2D7A957628C6142C00DF5130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A957328C6142C00DF5130 /* Assets.xcassets */; };
+		2D7A957828C6159F00DF5130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A957728C6159F00DF5130 /* SceneDelegate.swift */; };
+		2D7A957A28C615C100DF5130 /* MapsIndoors-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A957928C615C100DF5130 /* MapsIndoors-Info.plist */; };
+		B39A08B97A187CE1738C3432 /* Pods_mccloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA92212CA434319E2AE0A8D5 /* Pods_mccloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031D52240BCB6701D2970CEA /* Pods-mccloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mccloud.debug.xcconfig"; path = "Target Support Files/Pods-mccloud/Pods-mccloud.debug.xcconfig"; sourceTree = "<group>"; };
 		2D47E61328C5EB0400D10E58 /* mccloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mccloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D47E61628C5EB0400D10E58 /* mccloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mccloudApp.swift; sourceTree = "<group>"; };
 		2D47E61828C5EB0400D10E58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D47E61A28C5EB0500D10E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D47E61D28C5EB0500D10E58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D620EFC28C5F6E700BD8ED7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D7A953B28C5FCD800DF5130 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2D7A953C28C5FCD800DF5130 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2D7A953D28C5FCD800DF5130 /* DirectionsGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsGuideView.swift; sourceTree = "<group>"; };
+		2D7A953E28C5FCD800DF5130 /* MapsIndoorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsIndoorsView.swift; sourceTree = "<group>"; };
+		2D7A953F28C5FCD800DF5130 /* LocationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationResult.swift; sourceTree = "<group>"; };
+		2D7A954128C5FCD800DF5130 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		2D7A954328C5FCD800DF5130 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		2D7A954428C5FCD800DF5130 /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		2D7A954528C5FCD800DF5130 /* DirectionGuideLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionGuideLeg.swift; sourceTree = "<group>"; };
+		2D7A954628C5FCD800DF5130 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		2D7A954728C5FCD800DF5130 /* LocationInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInformation.swift; sourceTree = "<group>"; };
+		2D7A954828C5FCD800DF5130 /* SearchBarWithText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarWithText.swift; sourceTree = "<group>"; };
+		2D7A954928C5FCD800DF5130 /* BlueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
+		2D7A954A28C5FCD800DF5130 /* EmptyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyList.swift; sourceTree = "<group>"; };
+		2D7A954B28C5FCD800DF5130 /* SearchBarWithSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarWithSymbol.swift; sourceTree = "<group>"; };
+		2D7A954C28C5FCD800DF5130 /* DirectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		2D7A954D28C5FCD800DF5130 /* MapsIndoorsMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsIndoorsMap.swift; sourceTree = "<group>"; };
+		2D7A954E28C5FCD800DF5130 /* locationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationModel.swift; sourceTree = "<group>"; };
+		2D7A955028C5FCD800DF5130 /* KeyboardServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardServices.swift; sourceTree = "<group>"; };
+		2D7A955128C5FCD800DF5130 /* MapsIndoorsDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsIndoorsDirections.swift; sourceTree = "<group>"; };
+		2D7A955228C5FCD800DF5130 /* GPSPositionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSPositionProvider.swift; sourceTree = "<group>"; };
+		2D7A955328C5FCD800DF5130 /* CategoryLister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryLister.swift; sourceTree = "<group>"; };
+		2D7A955428C5FCD800DF5130 /* MapsIndoorsSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsIndoorsSearch.swift; sourceTree = "<group>"; };
+		2D7A956C28C5FF1500DF5130 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D7A956D28C5FF1500DF5130 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D7A957028C60BEA00DF5130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D7A957128C6142C00DF5130 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D7A957228C6142C00DF5130 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2D7A957328C6142C00DF5130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../MapsIndoorsTemplate-iOS/MapsIndoorsTemplate/Assets.xcassets"; sourceTree = "<group>"; };
+		2D7A957728C6159F00DF5130 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D7A957928C615C100DF5130 /* MapsIndoors-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MapsIndoors-Info.plist"; sourceTree = "<group>"; };
+		EA92212CA434319E2AE0A8D5 /* Pods_mccloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mccloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C3BE6412BAC04684C2AA29 /* Pods-mccloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mccloud.release.xcconfig"; path = "Target Support Files/Pods-mccloud/Pods-mccloud.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +91,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39A08B97A187CE1738C3432 /* Pods_mccloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D738A592E8A637B7FF3CC53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA92212CA434319E2AE0A8D5 /* Pods_mccloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2D47E60A28C5EB0400D10E58 = {
 			isa = PBXGroup;
 			children = (
+				2D620EFC28C5F6E700BD8ED7 /* Podfile */,
 				2D47E61528C5EB0400D10E58 /* mccloud */,
 				2D47E61428C5EB0400D10E58 /* Products */,
+				B377DA93E0FE7A6F8F53733C /* Pods */,
+				0D738A592E8A637B7FF3CC53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +128,18 @@
 		2D47E61528C5EB0400D10E58 /* mccloud */ = {
 			isa = PBXGroup;
 			children = (
+				2D7A957928C615C100DF5130 /* MapsIndoors-Info.plist */,
+				2D7A957028C60BEA00DF5130 /* Info.plist */,
+				2D7A957328C6142C00DF5130 /* Assets.xcassets */,
+				2D7A957128C6142C00DF5130 /* LaunchScreen.storyboard */,
+				2D7A957228C6142C00DF5130 /* Main.storyboard */,
 				2D47E61628C5EB0400D10E58 /* mccloudApp.swift */,
 				2D47E61828C5EB0400D10E58 /* ContentView.swift */,
+				2D7A956D28C5FF1500DF5130 /* AppDelegate.swift */,
+				2D7A957728C6159F00DF5130 /* SceneDelegate.swift */,
+				2D7A956C28C5FF1500DF5130 /* ViewController.swift */,
+				2D7A954F28C5FCD800DF5130 /* Services */,
+				2D7A953A28C5FCD800DF5130 /* Views */,
 				2D47E61A28C5EB0500D10E58 /* Assets.xcassets */,
 				2D47E61C28C5EB0500D10E58 /* Preview Content */,
 			);
@@ -67,6 +154,68 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2D7A953A28C5FCD800DF5130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D7A953B28C5FCD800DF5130 /* DetailView.swift */,
+				2D7A953C28C5FCD800DF5130 /* SearchView.swift */,
+				2D7A953D28C5FCD800DF5130 /* DirectionsGuideView.swift */,
+				2D7A953E28C5FCD800DF5130 /* MapsIndoorsView.swift */,
+				2D7A953F28C5FCD800DF5130 /* LocationResult.swift */,
+				2D7A954028C5FCD800DF5130 /* Extensions */,
+				2D7A954228C5FCD800DF5130 /* Components */,
+				2D7A954C28C5FCD800DF5130 /* DirectionsView.swift */,
+				2D7A954D28C5FCD800DF5130 /* MapsIndoorsMap.swift */,
+				2D7A954E28C5FCD800DF5130 /* locationModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D7A954028C5FCD800DF5130 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D7A954128C5FCD800DF5130 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2D7A954228C5FCD800DF5130 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2D7A954328C5FCD800DF5130 /* Icon.swift */,
+				2D7A954428C5FCD800DF5130 /* PagingView.swift */,
+				2D7A954528C5FCD800DF5130 /* DirectionGuideLeg.swift */,
+				2D7A954628C5FCD800DF5130 /* CloseButton.swift */,
+				2D7A954728C5FCD800DF5130 /* LocationInformation.swift */,
+				2D7A954828C5FCD800DF5130 /* SearchBarWithText.swift */,
+				2D7A954928C5FCD800DF5130 /* BlueButton.swift */,
+				2D7A954A28C5FCD800DF5130 /* EmptyList.swift */,
+				2D7A954B28C5FCD800DF5130 /* SearchBarWithSymbol.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2D7A954F28C5FCD800DF5130 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D7A955028C5FCD800DF5130 /* KeyboardServices.swift */,
+				2D7A955128C5FCD800DF5130 /* MapsIndoorsDirections.swift */,
+				2D7A955228C5FCD800DF5130 /* GPSPositionProvider.swift */,
+				2D7A955328C5FCD800DF5130 /* CategoryLister.swift */,
+				2D7A955428C5FCD800DF5130 /* MapsIndoorsSearch.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B377DA93E0FE7A6F8F53733C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				031D52240BCB6701D2970CEA /* Pods-mccloud.debug.xcconfig */,
+				F4C3BE6412BAC04684C2AA29 /* Pods-mccloud.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D47E62128C5EB0500D10E58 /* Build configuration list for PBXNativeTarget "mccloud" */;
 			buildPhases = (
+				EA15B49DC75EC333F40C3B29 /* [CP] Check Pods Manifest.lock */,
 				2D47E60F28C5EB0400D10E58 /* Sources */,
 				2D47E61028C5EB0400D10E58 /* Frameworks */,
 				2D47E61128C5EB0400D10E58 /* Resources */,
+				802707BCD070855AFAE6C044 /* [CP] Embed Pods Frameworks */,
+				DD50C7E12CC13718E8B90C53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +277,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7A957428C6142C00DF5130 /* LaunchScreen.storyboard in Resources */,
 				2D47E61E28C5EB0500D10E58 /* Preview Assets.xcassets in Resources */,
 				2D47E61B28C5EB0500D10E58 /* Assets.xcassets in Resources */,
+				2D7A957528C6142C00DF5130 /* Main.storyboard in Resources */,
+				2D7A957A28C615C100DF5130 /* MapsIndoors-Info.plist in Resources */,
+				2D7A957628C6142C00DF5130 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		802707BCD070855AFAE6C044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mccloud/Pods-mccloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mccloud/Pods-mccloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mccloud/Pods-mccloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD50C7E12CC13718E8B90C53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mccloud/Pods-mccloud-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mccloud/Pods-mccloud-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mccloud/Pods-mccloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA15B49DC75EC333F40C3B29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mccloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D47E60F28C5EB0400D10E58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7A956A28C5FCD800DF5130 /* CategoryLister.swift in Sources */,
+				2D7A955A28C5FCD800DF5130 /* View.swift in Sources */,
+				2D7A956828C5FCD800DF5130 /* MapsIndoorsDirections.swift in Sources */,
+				2D7A955D28C5FCD800DF5130 /* DirectionGuideLeg.swift in Sources */,
+				2D7A955628C5FCD800DF5130 /* SearchView.swift in Sources */,
+				2D7A955928C5FCD800DF5130 /* LocationResult.swift in Sources */,
+				2D7A956628C5FCD800DF5130 /* locationModel.swift in Sources */,
+				2D7A955B28C5FCD800DF5130 /* Icon.swift in Sources */,
+				2D7A956E28C5FF1500DF5130 /* ViewController.swift in Sources */,
+				2D7A956228C5FCD800DF5130 /* EmptyList.swift in Sources */,
+				2D7A956B28C5FCD800DF5130 /* MapsIndoorsSearch.swift in Sources */,
+				2D7A957828C6159F00DF5130 /* SceneDelegate.swift in Sources */,
+				2D7A955F28C5FCD800DF5130 /* LocationInformation.swift in Sources */,
 				2D47E61928C5EB0400D10E58 /* ContentView.swift in Sources */,
-				2D47E61728C5EB0400D10E58 /* mccloudApp.swift in Sources */,
+				2D7A955E28C5FCD800DF5130 /* CloseButton.swift in Sources */,
+				2D7A955528C5FCD800DF5130 /* DetailView.swift in Sources */,
+				2D7A955828C5FCD800DF5130 /* MapsIndoorsView.swift in Sources */,
+				2D7A956128C5FCD800DF5130 /* BlueButton.swift in Sources */,
+				2D7A956728C5FCD800DF5130 /* KeyboardServices.swift in Sources */,
+				2D7A956928C5FCD800DF5130 /* GPSPositionProvider.swift in Sources */,
+				2D7A955C28C5FCD800DF5130 /* PagingView.swift in Sources */,
+				2D7A956F28C5FF1500DF5130 /* AppDelegate.swift in Sources */,
+				2D7A956328C5FCD800DF5130 /* SearchBarWithSymbol.swift in Sources */,
+				2D7A956028C5FCD800DF5130 /* SearchBarWithText.swift in Sources */,
+				2D7A956528C5FCD800DF5130 /* MapsIndoorsMap.swift in Sources */,
+				2D7A956428C5FCD800DF5130 /* DirectionsView.swift in Sources */,
+				2D7A955728C5FCD800DF5130 /* DirectionsGuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +501,7 @@
 		};
 		2D47E62228C5EB0500D10E58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031D52240BCB6701D2970CEA /* Pods-mccloud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -271,9 +512,12 @@
 				DEVELOPMENT_TEAM = A8V6656PYZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = mccloud/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +536,7 @@
 		};
 		2D47E62328C5EB0500D10E58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C3BE6412BAC04684C2AA29 /* Pods-mccloud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,9 +547,12 @@
 				DEVELOPMENT_TEAM = A8V6656PYZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = mccloud/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

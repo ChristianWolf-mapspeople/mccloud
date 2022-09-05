@@ -1,0 +1,47 @@
+PODS:
+  - BottomSheetSwiftUI (2.8.0)
+  - GoogleMaps (4.2.0):
+    - GoogleMaps/Maps (= 4.2.0)
+  - GoogleMaps/Base (4.2.0)
+  - GoogleMaps/Maps (4.2.0):
+    - GoogleMaps/Base
+  - JSONModel (1.8.0)
+  - MapsIndoors (3.41.0):
+    - GoogleMaps (= 4.2.0)
+    - JSONModel
+    - MQTTClient
+    - SSZipArchive
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+  - SSZipArchive (2.5.2)
+
+DEPENDENCIES:
+  - BottomSheetSwiftUI (~> 2.8.0)
+  - MapsIndoors
+
+SPEC REPOS:
+  trunk:
+    - BottomSheetSwiftUI
+    - GoogleMaps
+    - JSONModel
+    - MapsIndoors
+    - MQTTClient
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  BottomSheetSwiftUI: e7b24c6dc003ef8ca550438ca0aaf31624d11f1c
+  GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  MapsIndoors: dd38f3e6ee01c44666cbc87bc66b5e22d11274ed
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  SSZipArchive: 155943602f0dd5ca75464bcb77e57a0bf33144a5
+
+PODFILE CHECKSUM: 72d7dc60781cb8ee6c6ba69c0870c0a303403a06
+
+COCOAPODS: 1.11.3

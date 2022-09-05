@@ -1,0 +1,6 @@
+framework module Pods_mccloud {
+  umbrella header "Pods-mccloud-umbrella.h"
+
+  export *
+  module * { export * }
+}
