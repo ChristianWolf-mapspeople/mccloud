@@ -31,7 +31,6 @@
 		2D7A956728C5FCD800DF5130 /* KeyboardServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955028C5FCD800DF5130 /* KeyboardServices.swift */; };
 		2D7A956828C5FCD800DF5130 /* MapsIndoorsDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955128C5FCD800DF5130 /* MapsIndoorsDirections.swift */; };
 		2D7A956928C5FCD800DF5130 /* GPSPositionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955228C5FCD800DF5130 /* GPSPositionProvider.swift */; };
-		2D7A956A28C5FCD800DF5130 /* CategoryLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955328C5FCD800DF5130 /* CategoryLister.swift */; };
 		2D7A956B28C5FCD800DF5130 /* MapsIndoorsSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A955428C5FCD800DF5130 /* MapsIndoorsSearch.swift */; };
 		2D7A956E28C5FF1500DF5130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A956C28C5FF1500DF5130 /* ViewController.swift */; };
 		2D7A956F28C5FF1500DF5130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A956D28C5FF1500DF5130 /* AppDelegate.swift */; };
@@ -72,7 +71,6 @@
 		2D7A955028C5FCD800DF5130 /* KeyboardServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardServices.swift; sourceTree = "<group>"; };
 		2D7A955128C5FCD800DF5130 /* MapsIndoorsDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsIndoorsDirections.swift; sourceTree = "<group>"; };
 		2D7A955228C5FCD800DF5130 /* GPSPositionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSPositionProvider.swift; sourceTree = "<group>"; };
-		2D7A955328C5FCD800DF5130 /* CategoryLister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryLister.swift; sourceTree = "<group>"; };
 		2D7A955428C5FCD800DF5130 /* MapsIndoorsSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsIndoorsSearch.swift; sourceTree = "<group>"; };
 		2D7A956C28C5FF1500DF5130 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D7A956D28C5FF1500DF5130 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 				2D7A955028C5FCD800DF5130 /* KeyboardServices.swift */,
 				2D7A955128C5FCD800DF5130 /* MapsIndoorsDirections.swift */,
 				2D7A955228C5FCD800DF5130 /* GPSPositionProvider.swift */,
-				2D7A955328C5FCD800DF5130 /* CategoryLister.swift */,
 				2D7A955428C5FCD800DF5130 /* MapsIndoorsSearch.swift */,
 			);
 			path = Services;
@@ -352,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7A956A28C5FCD800DF5130 /* CategoryLister.swift in Sources */,
 				2D7A955A28C5FCD800DF5130 /* View.swift in Sources */,
 				2D7A956828C5FCD800DF5130 /* MapsIndoorsDirections.swift in Sources */,
 				2D7A955D28C5FCD800DF5130 /* DirectionGuideLeg.swift in Sources */,
